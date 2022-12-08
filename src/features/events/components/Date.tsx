@@ -21,7 +21,7 @@ function Date({ds, events}) {
             <Flex 
               borderRadius={20} 
               px='2' 
-              w='[inherit,inherit,4]'
+              w={['6','inherit','inherit']}
               overflow='hidden'
               gap={1} 
               direction={'row'} 

@@ -1,11 +1,8 @@
 import React from 'react'
-import { Box, Flex, GridItem, Heading, Text } from '@chakra-ui/react'
-import dayjs from 'dayjs';
- 
+import { Box, Flex, GridItem, Heading } from '@chakra-ui/react'
+
 function Days() {
   
-  console.log(dayjs().day(0))
-
   return (
     <>
       { Array(7).fill(0).map((a, i) => (

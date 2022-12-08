@@ -57,7 +57,7 @@ export const Calendar = () => {
       >
         Orinoco Events
       </Heading>
-      <Box id="calendar-grid" py='[10, 5, 2]' px='[20, 10, 5]' h='container.md' bgColor="olive.300">
+      <Box id="calendar-grid" py={['2', '5', '10']} px={['2', '10', '20']} h='container.md' bgColor="olive.300">
         <Grid 
           h='xl'
           templateRows='repeat(5, 1fr)'
